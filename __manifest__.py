@@ -4,6 +4,7 @@
     'version': '19.0.1.0.0',
     'author': 'Invo Facturation',
     'website': 'https://invo-facturation.fr',
+    'license': 'LGPL-3',
     'category': 'Mail',
     'summary': 'Automatically add Brevo tags to outgoing emails',
     'description': """
@@ -18,8 +19,6 @@ Tags format:
 
 The tags are added as X-Mailin-Tag headers that Brevo recognizes for email categorization and analytics.
     """,
-    'author': '',
-    'website': '',
     'depends': ['mail'],
     'data': [],
     'installable': True,
